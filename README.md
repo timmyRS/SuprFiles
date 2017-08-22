@@ -2,7 +2,7 @@
 
 A Java file library allowing you to access local, SFTP and SMB files using the same functions.
 
-[Releases](https://github.com/timmyrs/SuprFiles/releases)
+[Releases](https://github.com/timmyrs/SuprFiles/releases) [Documentation](https://timmyrs.github.io/SuprFiles/)
 
 ## An Example
 
