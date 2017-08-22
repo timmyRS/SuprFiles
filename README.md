@@ -15,7 +15,7 @@ A Java file library allowing you to access local, SFTP and SMB files using the s
 	{
 		fileInterface = new SFTPInterface(host, name, pass);
 	}
-	else if(chosenProtocol.equals("sftp"))
+	else if(chosenProtocol.equals("smb"))
 	{
 		fileInterface = new SMBInterface(host, name, pass);
 	}
