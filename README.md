@@ -11,7 +11,7 @@ A Java file library allowing you to access local, SFTP and SMB files using the s
 	{
 		fileInterface = new FSInterface();
 	}
-	else if(choseProtocol.equals("sftp"))
+	else if(chosenProtocol.equals("sftp"))
 	{
 		fileInterface = new SFTPInterface(host, name, pass);
 	}
@@ -23,8 +23,6 @@ A Java file library allowing you to access local, SFTP and SMB files using the s
 	file.write("This file has been created using SuprFiles <https://github.com/timmyrs/SuprFiles>.");
 
 ## Used Libraries
-
-SuprFiles merely is a combination of things which already exist:
 
 - [Apache Commons IO](https://commons.apache.org/proper/commons-io/) ([License](http://www.apache.org/licenses/)) made working with the objects a lot easier,
 - [jCIFS](https://jcifs.samba.org/) ([License](http://www.gnu.org/licenses/lgpl-2.1.txt)) made working with SMB/CIFS possible in the first place, and
