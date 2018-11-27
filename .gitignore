@@ -1,5 +1,5 @@
 .idea
 out/
-Tests/
-*.iml
-SuprFiles.jar
+target/
+dependency-reduced-pom.xml
+SuprFiles.iml

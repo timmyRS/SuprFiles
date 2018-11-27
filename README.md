@@ -5,6 +5,22 @@ A Java file library allowing you to access local, SFTP and SMB files using the s
 - [Downloads](https://github.com/timmyrs/SuprFiles/releases)
 - [Documentation](https://timmyrs.github.io/SuprFiles/)
 
+## Maven2
+
+    <repositories>
+        <repository>
+            <id>hellsh</id>
+            <url>https://mvn2.hell.sh</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>de.timmyrs</groupId>
+            <artifactId>suprfiles</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+
 ## An Example
 
 	FileInterface fileInterface;
