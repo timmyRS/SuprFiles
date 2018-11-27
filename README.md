@@ -2,7 +2,8 @@
 
 A Java file library allowing you to access local, SFTP and SMB files using the same functions.
 
-[Releases](https://github.com/timmyrs/SuprFiles/releases) [Documentation](https://timmyrs.github.io/SuprFiles/)
+- [Downloads](https://github.com/timmyrs/SuprFiles/releases)
+- [Documentation](https://timmyrs.github.io/SuprFiles/)
 
 ## An Example
 
@@ -11,7 +12,7 @@ A Java file library allowing you to access local, SFTP and SMB files using the s
 	{
 		fileInterface = new FSInterface();
 	}
-	else if(choseProtocol.equals("sftp"))
+	else if(chosenProtocol.equals("sftp"))
 	{
 		fileInterface = new SFTPInterface(host, name, pass);
 	}
